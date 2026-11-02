@@ -1,6 +1,6 @@
 [![P1-Workflow, by Adam Natad: your personal knowledge base that grows as you build your project. Works with Muse, Codex, Claude, Grok, Cursor, Copilot, Gemini and 16 more.](p1-workflow-social-preview.png)](https://papeliz.com/templates/p1-workflow/)
 
-# P1-Workflow by Adam Natad
+# P1-Workflow by [Adam Natad](https://papeliz.com/adam-natad/)
 
 **Your personal knowledge base that grows as you build your project.**
 
