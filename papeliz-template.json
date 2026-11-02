@@ -6,5 +6,10 @@
   "templateFirstNotePath": "README.md",
   "templateIncludedPaths": ["**"],
   "templateExcludedPaths": [],
+  "templateOptionalPaths": [
+    ".claude/**", ".codex/**", ".cursor/**", ".github/**", ".muse/**", ".grok/**", ".gemini/**",
+    ".agents/hooks.json", ".qwen/**", ".devin/**", ".factory/**", ".kiro/**", ".commandcode/**",
+    "opencode.json", ".kilo/**", ".aider.conf.yml"
+  ],
   "templateThumbnailPicturePath": "p1-workflow-template-thumbnail.png"
 }

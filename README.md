@@ -135,6 +135,10 @@ Bin or Trash through `trash`. OpenCode and Kilo Code get deny rules instead.
 The table of agents, their files and how each one blocks is in
 `workflow/notes/docs/coding-agents-and-the-delete-guard.md`.
 
+**Recommended or All.** When you create a project from this template, Recommended leaves out every
+agent's settings folder: your agents still follow `AGENTS.md`, but the delete-guard hooks come only
+with All. If you took Recommended, copy your agent's folder from this repository to add its hook.
+
 ## Safe by default
 
 - **Deletes are recoverable.** Every deletion goes through `trash`, and every agent's hook enforces
