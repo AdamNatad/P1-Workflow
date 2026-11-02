@@ -173,5 +173,6 @@ picture tool, and [`trash`](https://github.com/sindresorhus/trash-cli).
 
 ---
 
-[MIT License](LICENSE) - Made with ❤️ by [Adam Natad](https://papeliz.com/adam-natad/). -
-© 2026 [Natad Corporation](https://natad.ai/).
+Made with ❤️ by [Adam Natad](https://papeliz.com/adam-natad/)
+
+© 2026 [Natad Corporation](https://natad.ai/) · [MIT License](LICENSE)
