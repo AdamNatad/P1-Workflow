@@ -4,6 +4,8 @@
 
 **Your personal knowledge base that grows as you build your project.**
 
+---
+
 A free project template for building any software project with AI coding agents.
 
 One folder of plain Markdown, `workflow/`, holds everything that decides what gets built: the
