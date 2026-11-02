@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "type": "command",
+        "matcher": "bash|powershell",
+        "bash": "node .agents/hooks/block-permanent-delete-commands.mjs copilot",
+        "powershell": "node .agents/hooks/block-permanent-delete-commands.mjs copilot",
+        "timeoutSec": 10
+      }
+    ]
+  }
+}

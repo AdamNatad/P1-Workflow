@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "deny": [
+      "Exec(rm)",
+      "Exec(rmdir)",
+      "Exec(unlink)",
+      "Exec(shred)",
+      "Exec(del)",
+      "Exec(erase)",
+      "Exec(rd)",
+      "Exec(Remove-Item)",
+      "Exec(git clean)"
+    ]
+  }
+}

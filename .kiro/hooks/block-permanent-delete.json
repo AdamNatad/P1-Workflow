@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "block-permanent-delete",
+      "trigger": "PreToolUse",
+      "matcher": "shell",
+      "action": {
+        "type": "command",
+        "command": "node .agents/hooks/block-permanent-delete-commands.mjs kiro"
+      }
+    }
+  ]
+}

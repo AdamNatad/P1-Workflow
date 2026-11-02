@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "^(shell|exec_command|bash)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .agents/hooks/block-permanent-delete-commands.mjs muse",
+            "commandWindows": "node .agents/hooks/block-permanent-delete-commands.mjs muse",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "context": {
+    "fileName": ["AGENTS.md"]
+  },
+  "hooks": {
+    "BeforeTool": [
+      {
+        "matcher": "run_shell_command",
+        "hooks": [
+          {
+            "type": "command",
+            "name": "block-permanent-delete",
+            "command": "node \"$GEMINI_PROJECT_DIR/.agents/hooks/block-permanent-delete-commands.mjs\" gemini",
+            "timeout": 5000
+          }
+        ]
+      }
+    ]
+  }
+}

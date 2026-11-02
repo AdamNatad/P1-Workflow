@@ -1,0 +1,69 @@
+{
+  "about": "The order Papeliz shows this vault’s notes and folders in: folder path → names. \"\" is the top of the vault.",
+  "fileListOrder": {
+    "": [
+      "README.md",
+      "session-start-command.md",
+      "AGENTS.md",
+      "workflow",
+      "CLAUDE.md",
+      "test_trash",
+      "tools",
+      "LICENSE",
+      "opencode.json",
+      "p1-workflow-social-preview.png",
+      "p1-workflow-template-thumbnail.png"
+    ],
+    "workflow": [
+      "START.md",
+      "PLANNING.md",
+      "TASKS.md",
+      "PRODUCT.md",
+      "ACCEPTANCE.md",
+      "TECH_STACK.md",
+      "FOLDER_STRUCTURE.md",
+      "DATABASE.md",
+      "ENVIRONMENT.md",
+      "DEPLOYMENT.md",
+      "LAUNCHER.md",
+      "DECISIONS.md",
+      "BUGS.md",
+      "CHANGELOG_AI.md",
+      "HISTORY.md",
+      "notes",
+      "tasks",
+      "archive"
+    ],
+    "workflow/notes": [
+      "README.md",
+      "overview.md",
+      "areas",
+      "docs",
+      "runbooks",
+      "templates"
+    ],
+    "workflow/notes/runbooks": [
+      "session-summary.md",
+      "task-list.md",
+      "parallel-lanes.md"
+    ],
+    "workflow/notes/templates": [
+      "record.md",
+      "decision.md",
+      "bug.md",
+      "doc.md",
+      "runbook.md",
+      "lane-packet.md"
+    ],
+    "workflow/tasks": [
+      "0.1",
+      "pending"
+    ],
+    "test_trash": [
+      "README.md",
+      "mockups",
+      "artifacts",
+      "logs"
+    ]
+  }
+}

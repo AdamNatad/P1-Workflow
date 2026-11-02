@@ -1,0 +1,16 @@
+{
+  "block-permanent-delete": {
+    "PreToolUse": [
+      {
+        "matcher": "run_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .agents/hooks/block-permanent-delete-commands.mjs antigravity",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

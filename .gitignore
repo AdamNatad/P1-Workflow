@@ -1,0 +1,40 @@
+# Disposable scratch: Git keeps only its README and its empty default folders.
+test_trash/*
+!test_trash/README.md
+!test_trash/mockups/
+!test_trash/artifacts/
+!test_trash/logs/
+test_trash/mockups/*
+test_trash/artifacts/*
+test_trash/logs/*
+!test_trash/mockups/.gitkeep
+!test_trash/artifacts/.gitkeep
+!test_trash/logs/.gitkeep
+
+# Secrets and local settings.
+.env
+.env.*
+!.env.example
+*.pem
+.claude/settings.local.json
+.devin/config.local.json
+.commandcode/settings.local.json
+CLAUDE.local.md
+
+# Dependencies, build output, caches and test reports. Adjust for your stack.
+node_modules/
+dist/
+build/
+out/
+coverage/
+.cache/
+*.log
+
+# Editors and system files.
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+Desktop.ini

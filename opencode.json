@@ -1,0 +1,24 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permission": {
+    "bash": {
+      "*": "allow",
+      "rm": "deny",
+      "rm *": "deny",
+      "rmdir *": "deny",
+      "unlink *": "deny",
+      "shred *": "deny",
+      "del *": "deny",
+      "erase *": "deny",
+      "rd *": "deny",
+      "Remove-Item *": "deny",
+      "rimraf *": "deny",
+      "npx rimraf *": "deny",
+      "git clean*": "deny",
+      "git rm *": "deny",
+      "git rm --cached *": "allow",
+      "git rm -r --cached *": "allow",
+      "find * -delete*": "deny"
+    }
+  }
+}

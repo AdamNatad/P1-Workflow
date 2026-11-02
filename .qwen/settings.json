@@ -1,0 +1,20 @@
+{
+  "context": {
+    "fileName": ["AGENTS.md"]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "run_shell_command",
+        "hooks": [
+          {
+            "type": "command",
+            "name": "block-permanent-delete",
+            "command": "node \"$QWEN_PROJECT_DIR/.agents/hooks/block-permanent-delete-commands.mjs\" qwen",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

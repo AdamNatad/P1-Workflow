@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "^Bash$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .agents/hooks/block-permanent-delete-commands.mjs codex",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "deny": [
+      "Shell(rm:*)",
+      "Shell(rmdir:*)",
+      "Shell(unlink:*)",
+      "Shell(shred:*)",
+      "Shell(del:*)",
+      "Shell(erase:*)",
+      "Shell(rd:*)",
+      "Shell(Remove-Item:*)",
+      "Shell(rimraf:*)",
+      "Shell(git clean:*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "shell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$COMMANDCODE_PROJECT_DIR/.agents/hooks/block-permanent-delete-commands.mjs\" commandcode",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

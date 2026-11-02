@@ -1,0 +1,12 @@
+# Codex refuses these outright. The hook in .codex/hooks.json catches the rest, such as
+# `find -delete`, `git rm` and deletes inside `bash -c` (AGENTS.md, rule 12).
+prefix_rule(
+    pattern = [["rm", "rmdir", "unlink", "shred", "del", "erase", "rd", "Remove-Item", "rimraf"]],
+    decision = "forbidden",
+    justification = "Delete with `trash` (forward-slash paths), so it can be restored: AGENTS.md, rule 12.",
+)
+prefix_rule(
+    pattern = ["git", "clean"],
+    decision = "forbidden",
+    justification = "`git clean` deletes untracked files permanently. Delete with `trash`: AGENTS.md, rule 12.",
+)

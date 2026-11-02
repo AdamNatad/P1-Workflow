@@ -1,0 +1,2 @@
+# Aider doesn't read AGENTS.md on its own; this loads it, read-only, into every chat.
+read: [AGENTS.md]
