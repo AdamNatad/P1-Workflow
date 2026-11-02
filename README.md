@@ -26,7 +26,7 @@ more. It is all plain Markdown: open it in any editor, or as a vault in
 - [Safe by default](#safe-by-default)
 - [Make it yours](#make-it-yours)
 - [Questions](#questions)
-- [License](#license)
+- [License](#license---released-under-the-mit-license)
 
 ## Why P1-Workflow
 
@@ -172,9 +172,7 @@ picture tool, and [`trash`](https://github.com/sindresorhus/trash-cli).
 `.agents/hooks/block-permanent-delete-commands.mjs`, test it with `--check`, and record why in
 `workflow/DECISIONS.md`.
 
-## License
-
-License - Released Under The [MIT License](LICENSE)
+## License - Released Under The [MIT License](LICENSE)
 
 Made with ❤️ by [Adam Natad](https://papeliz.com/adam-natad/).
 
