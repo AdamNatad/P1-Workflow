@@ -1,9 +1,8 @@
 [![P1-Workflow, by Adam Natad: your personal knowledge base that grows as you build your project. Works with Muse, Codex, Claude, Grok, Cursor, Copilot, Gemini and 16 more.](p1-workflow-social-preview.png)](https://papeliz.com/templates/p1-workflow/)
 
-# P1-Workflow
+# P1-Workflow by Adam Natad
 
-**A free project template for building any software project with AI coding agents.**
-By [Adam Natad](https://github.com/AdamNatad).
+A free project template for building any software project with AI coding agents.
 
 One folder of plain Markdown, `workflow/`, holds everything that decides what gets built: the
 product, the plan, the tasks, the decisions and the history. Every agent reads it before it touches
