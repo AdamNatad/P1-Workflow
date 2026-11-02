@@ -1,4 +1,4 @@
-![P1-Workflow, by Adam Natad: your personal knowledge base that grows as you build your project. Works with Muse, Codex, Claude, Grok, Cursor, Copilot, Gemini and 16 more.](p1-workflow-social-preview.png)
+[![P1-Workflow, by Adam Natad: your personal knowledge base that grows as you build your project. Works with Muse, Codex, Claude, Grok, Cursor, Copilot, Gemini and 16 more.](p1-workflow-social-preview.png)](https://papeliz.com/templates/p1-workflow/)
 
 # P1-Workflow
 
@@ -12,7 +12,7 @@ instead of a guess.
 
 It works with Muse Code, Codex, Claude Code, Grok Build, Cursor, GitHub Copilot, Gemini CLI and 16
 more. It is all plain Markdown: open it in any editor, or as a vault in
-[Papeliz](https://papeliz.com).
+[Papeliz](https://papeliz.com/templates/p1-workflow/).
 
 ## Contents
 
